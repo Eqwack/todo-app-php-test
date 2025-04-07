@@ -6,7 +6,7 @@ Une petite application de gestion de tâches réalisée en PHP, HTML/CSS, et MyS
 
 - Ajouter, modifier, supprimer des tâches
 - Rechercher une tâche par titre ou description
-- Stockage en base de données MySQL (ou PostgreSQL avec adaptation légère)
+- Stockage en base de données MySQL 
 
 ## 🛠 Installation
 
