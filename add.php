@@ -9,7 +9,7 @@ $tacheManager = new TacheManager($connexion);
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $titre = $_POST['title'];
     $description = $_POST['description'];
-    $statut = "à faire'";
+    $statut = "à faire";
 
     $tacheManager->ajouterTache($titre, $description, $statut);
 
