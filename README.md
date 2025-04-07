@@ -13,5 +13,5 @@ Une petite application de gestion de tâches réalisée en PHP, HTML/CSS, et MyS
 ### 1. Cloner le projet
 
 ```bash
-git clone https://github.com/votre-utilisateur/todo-app.git
+git clone https://github.com/Eqwack/todo-app-php-test.git
 cd todo-app
