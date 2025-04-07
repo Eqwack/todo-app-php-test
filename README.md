@@ -8,9 +8,11 @@ Une petite application de gestion de tâches réalisée en PHP, HTML/CSS, et MyS
 - Rechercher une tâche par titre ou description
 - Stockage en base de données MySQL 
 
-## 🛠 Installation
+## 🛠 Table 
+   ![image](https://github.com/user-attachments/assets/85e03632-f390-41ba-a0b2-a22b2c5d2990)
 
-### 1. Cloner le projet
+
+###  Cloner le projet
 
 ```bash
 git clone https://github.com/Eqwack/todo-app-php-test.git
