@@ -1,7 +1,7 @@
 <?php
 require_once("db.php");
 
-
+//ajouter
 $connexion = mysqli_connect("localhost", "root", "", "tache");
 $tacheManager = new TacheManager($connexion);
 

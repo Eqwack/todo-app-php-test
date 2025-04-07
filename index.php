@@ -23,7 +23,7 @@
 <body>
     <div class="container">
         <h1>Gestionnaire de Taches</h1>
-          <!-- recheche tache tgg -->
+          <!-- recheche tache  -->
           <form method="get" action="search.php">
             <input type="text" name="query" placeholder="Rechercher une tache">
             <button type="submit">Rechercher</button>
