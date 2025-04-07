@@ -1,0 +1,153 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #c6c6c6;
+  
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #000000;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #3498db;
+}
+
+h2 {
+    color: #000000;
+    margin: 20px 0 15px;
+    font-size: 1.5rem;
+}
+
+
+form {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"], 
+textarea ,
+#statut{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+button, .btn {
+    background-color: #202020;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    text-decoration: none;
+    display: inline-block;
+  
+}
+
+button:hover, .btn:hover {
+    background-color: #202020;
+}
+
+
+input[type="text"][name="query"] {
+    width: 70%;
+    margin-right: 10px;
+}
+
+
+.task-list {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table th,
+table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+table tr:hover {
+    background-color: #f9f9f9;
+}
+
+
+
+
+.btn.edit {
+    background-color: #008d13;
+}
+
+.btn.edit:hover {
+    background-color: #00ff22   ;
+}
+
+.btn.delete {
+    background-color: #8e0e00;
+}
+
+.btn.delete:hover {
+    background-color: #ff1900;
+}
+
+
+.add-task-form {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 30px;
+
+}
+
+
+p {
+    text-align: center;
+    margin: 20px 0;
+  
+}
+
+
