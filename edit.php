@@ -15,7 +15,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     header("Location: index.php");
     exit();
 }
-
+ 
 
 if (isset($_GET['id'])) {
     $id = intval($_GET['id']);

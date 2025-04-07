@@ -17,7 +17,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_GET['query'])) {
     $motCle = htmlspecialchars($_GET['query']);
     $resultats = $tacheManager->rechercherTaches($motCle);
 }
-?>
+?> 
 
 <!DOCTYPE html>
 <html lang="fr">

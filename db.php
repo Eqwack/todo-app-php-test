@@ -1,7 +1,7 @@
 <?php 
 class Tache{
     private $ID;
-    private $Titre;
+    private $Titre; 
     private $Description;
     private  $Date_creation;
     private $Statut;
